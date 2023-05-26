@@ -1,0 +1,246 @@
+@media (max-width:477px){
+
+    button.normal {
+        padding: 10px 15px;
+        color: black;
+    }
+
+    h2 {
+        font-size: 28px;
+        line-height: 25px;
+    }
+
+    h4 {
+        font-size: 13px;
+    }
+
+    h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    p {
+        font-size: 13px;
+        margin: 15px 0 10px 0;
+    }
+
+    .section-p1 {
+        padding: 20px;
+    }
+
+    #header{
+        padding: 10px 30px;
+    }
+
+    #navbar{
+        width: 200px;
+    }
+
+    #hero {
+        background-position: top 30% right 50%;
+        padding: 0 30px;
+    }
+
+    #feature{
+        justify-content: center;
+    }
+
+    #feature .feature-box {
+        width: 155px;
+        padding: 20px 10px;
+        box-shadow: 20px 20px 34px rgb(0,0 ,0 ,0.03);
+        border: 1px solid #cce7d0;
+        border-radius: 5px;
+        margin: 0 15px 0 0;
+    }
+
+    #product1 .pro {
+        width: 100%;
+    }
+
+    #banner h2 {
+        font-size: 25px;
+        padding: 10px 0;
+    }
+
+    #banner h4 {
+        font-size: 16px;
+    }
+
+    #sm-banner .banner-box {
+        height: 40vh;
+        margin-bottom: 15px;
+    }
+
+    #sm-banner h2 {
+        line-height: 35px;
+    }
+
+    #banner3{
+        padding: 0px 20px;
+    }
+
+    #banner3 .banner-box {
+        width: 100%;
+    }
+
+    #newsletter .form{
+        width: 100%;
+    }
+
+    #newsletter{
+        padding: 40px 20px;
+    }
+
+    footer .copyright {
+        text-align: start;
+    }
+
+    /* Shop page */
+
+    #prodetails {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #prodetails .single-pro-details{
+        width: 100%;
+    }
+
+    #prodetails .single-pro-image{
+        width: 100%;
+    }
+
+    /* Blog Page */
+
+    #blog{
+        padding: 100px 20px 0 20px;
+    }
+
+    #blog .blog-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        position: relative;
+        padding-bottom: 40px;
+    }
+
+    #blog .blog-box h1{
+        font-size: 50px;
+    }
+
+    #blog .blog-box .blog-details{
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    #blog .blog-img{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    /* About page */
+
+    #about-head{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #about-head img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #about-head div{
+        padding-left: 0px;
+    }
+
+    #about-app .video{
+        width: 100%;
+    }
+
+    /* Contact page */
+
+    #contact-details {
+        flex-direction: column;
+    }
+
+    #contact-details .details{
+        width: 100%;
+    }
+
+    #contact-details .map{
+        width: 90%;
+    }
+
+    #form-details {
+        margin: 10px;
+        padding: 30px 10px;
+        flex-wrap: wrap;
+    }
+
+    #form-details form {
+        width: 95%;
+        padding-bottom: 30px;
+    }
+
+    /* Cart */
+
+    #cart-add {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #coupon{
+        width: 100%;
+    }
+
+    #subtotal{
+        width: 100%;
+    }
+}
+
+
+/* For mid range device */
+
+@media (min-width:477px) and (max-width:550px){
+
+    /* shop page */
+    #prodetails {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #prodetails .single-pro-details{
+        width: 100%;
+    }
+
+    #prodetails .single-pro-image{
+        width: 100%;
+    }
+     
+
+    /* About page */
+
+    #about-head{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #about-head img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #about-head div{
+        padding-left: 0px;
+    }
+
+    #about-app .video{
+        width: 100%;
+    }
+
+}
